@@ -5,6 +5,6 @@ import axios from 'axios';
 export default axios.create({
   baseURL: 'https://api.themoviedb.org/3',
   params: {
-    api_key: '5ec32f74a5f40a12ed860e35b7a8e811',
+    api_key: 'ваш ключ',
   },
 });
