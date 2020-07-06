@@ -25,12 +25,12 @@ const StyledNavLink = styled(Link)`
 `;
 
 
-const NavItem = ({ link, children,  clicked }) => {
+const NavItem = ({ link, children }) => {
   return (
     <Li>
       <StyledNavLink
-         onClick={clicked}  exact  path={process.env.PUBLIC_URL + '/'}
-        activeClassName="active" to={process.env.PUBLIC_URL + '/discover/Popular'}
+          exact  
+        to={process.env.PUBLIC_URL + '/discover/Popular'}
       >
         {children}
       </StyledNavLink>
