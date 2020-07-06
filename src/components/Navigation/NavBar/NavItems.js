@@ -18,7 +18,7 @@ const Ul = styled.ul`
 const NavItems = ( clicked ) => {
   
   return( <Nav > <Ul>
-  <NavItem  link="/discover/Popular">
+  <NavItem  link="/">
   Главная
   </NavItem>
   
